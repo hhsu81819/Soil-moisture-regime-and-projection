@@ -1,4 +1,7 @@
 # Soil-moisture-regime-and-projection
+
+Scripts here generates the result of the paper (doi) from CMIP6 outputs and the plots for the paper.
+
 -breakpoint.py
 
 This generates the critical soil mositure values from given soil moisture and latent heat flux timeseries by different piecewise regressions.
