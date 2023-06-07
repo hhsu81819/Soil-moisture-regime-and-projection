@@ -50,6 +50,10 @@ def piecewise3sg_linear(x, x0, x1, y0, y1, k1, k2, k3):
     lambda x: k1*x + b, lambda x: k1*x + b + k2*(x-x0), lambda x: k1*x + b + k2*(x-x0) + k3*(x - x1)
     Note that this could generate results that x1<x0. This is not solved analytically but by removing the result of 
     this afterward.
+    
+    2023/06/07: A mistake of this version of script.  
+      Line 189: Y[i-1]=p4*(SM[i-1]-p0)+p1
+      Line 193: Y[i-1]=p3+(SM[i-1]-p2)*p6
 """
 
 
